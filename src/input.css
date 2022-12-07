@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.list{
+  @apply inline text-[lightslategray] hover:text-[#5777ba];
+}
+
+.btn1{
+  @apply h-10 w-24 border-0 bg-[#5777ba] text-[whitesmoke] rounded-3xl hover:bg-[#47536e];
+}
+
+.btn2{
+  @apply rounded border-0 text-[whitesmoke] bg-[#47536e] h-10 w-36 mx-2 hover:bg-[#5777ba];
+}
+
+.faq{
+  @apply bg-white text-[#343a40] hover:text-[#5777ba] p-[8px] pl-[30px] w-[83%] h-[80px] border-solid border-[5px] border-[#f2f5fa] text-left text-[16px] font-bold;
+}
+
